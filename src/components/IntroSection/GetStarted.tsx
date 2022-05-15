@@ -30,7 +30,7 @@ const GetStarted = () => {
             <Stack 
                 color='#c8d0dd' 
                 textAlign='center' 
-                bg='#0B1523' 
+                bg='#181F2A' 
                 padding='3rem 0'>
                 <Text
                     padding='2rem'

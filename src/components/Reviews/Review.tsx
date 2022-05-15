@@ -9,7 +9,7 @@ import {
 
 const Review = (props: any) => {
     return (
-        <Stack p='2rem 1.5rem' bgColor='#202A3C' mb='2rem' ml='0.5rem' mt='0' color='#c8d0dd' spacing={15} borderRadius={"md"} >
+        <Stack p='2rem 1.5rem' bgColor='#202A3C' mb='1.5rem !important' ml='0.5rem' mt={0} color='#c8d0dd' borderRadius={"md"} >
             <Text
                 fontSize='0.9rem'
             >

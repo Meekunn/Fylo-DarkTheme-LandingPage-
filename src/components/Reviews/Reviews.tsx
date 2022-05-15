@@ -26,7 +26,7 @@ const reviews: IReview[] = [
 
 const Reviews = () => {
     return (
-        <Stack bg='#0B1523' p='8rem 3rem'>
+        <Stack bg='#181F2A' p='8rem 3rem 2rem'>
             <Image src={Quotes} width='10%' />
             {reviews.map((review :any) => {
                 return (

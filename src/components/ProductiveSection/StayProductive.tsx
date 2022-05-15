@@ -6,9 +6,10 @@ import {
     Link,
     Box,
     Flex,
+    chakra,
 } from '@chakra-ui/react'
 import ProductivePNG from '../../assets/images/illustration-stay-productive.png'
-import { ArrowIcon } from '../Icons/Svgs'
+import arrow from '../../assets/images/icon-arrow.svg'
 
 const StayProductive = () => {
     return (
@@ -46,7 +47,7 @@ const StayProductive = () => {
                 >
                     See how Fylo works
                 </Link>
-                <ArrowIcon />
+                <chakra.img src={arrow} />
             </Flex>
             <Box bgColor='#65E2D9' height='1px' width='150px'></Box>
         </Stack>

@@ -35,7 +35,7 @@ const featureDetails: IFeature[] = [
 
 const Features = () => {
     return (
-        <Stack bg='#0B1523' color='#c8d0dd' p='15rem 2rem 5rem'>
+        <Stack bg='#181F2A' color='#c8d0dd' p='10rem 2rem 5rem'>
             {featureDetails.map((detail: any) => {
                 return (
                     <Feature key={detail.id} icon={detail.icon} title={detail.title} summary={detail.summary} />

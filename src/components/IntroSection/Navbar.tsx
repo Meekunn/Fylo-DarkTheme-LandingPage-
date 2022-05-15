@@ -5,14 +5,14 @@ import {
     Spacer,
     Link,
 } from "@chakra-ui/react"
-import logo from '../../assets/images/logo1.svg'
+import logo from '../../assets/images/logo.svg'
 
 
 const Navbar = () => {
     return (
         <VStack bg='#202A3C' w='100%'>
-            <Flex p={4} w='100%' pt='1.5rem' pb='1.5rem'>
-                <chakra.img src={logo} />
+            <Flex p={4} w='100%' pt='1.5rem' pb='1.5rem' align='center'>
+                <chakra.img src={logo} width='30%' height='30%' />
                 <Spacer />
                 <Flex color='#c8d0dd' justify='space-around'>
                     <Link 
